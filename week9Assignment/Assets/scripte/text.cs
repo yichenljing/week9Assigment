@@ -14,7 +14,7 @@ public class text : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        myText = GameObject.Find("text").GetComponent<Text>();
+        myText = GameObject.Find("Text").GetComponent<Text>();
         myText.color = Color.clear;
         
     }
